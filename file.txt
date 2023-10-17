@@ -1,0 +1,32 @@
+Rehema Hope Mumbi Kariuki
+SCT 212-0144/2022
+BIT 2204
+Network System & Administration
+Assignment 
+Differences between OSI model and TCP/IP model
+1. *Layer Count*: The OSI model comprises seven layers, from the physical (Layer 1) to the application layer (Layer 7), providing a more granular view of network functionality. In contrast, the TCP/IP model combines the physical and data link layers into a single network access layer, resulting in a four-layer structure.
+
+2. *Origins*: The OSI model was developed by the International Organization for Standardization (ISO) and was designed to be a comprehensive and universally applicable framework. On the other hand, the TCP/IP model originated from the development of the Internet and is tailored to the specific needs of this global network.
+
+3. *Layer Terminology*: The OSI model uses different terminology for its layers, like the transport layer and presentation layer, which aren't directly mirrored in the TCP/IP model. The closest equivalents in the TCP/IP model would be the transport layer (Layer 4) and the application layer (Layer 7).
+
+4. *Adaptability*: The OSI model is more theoretical and provides a broader conceptual framework. It is not directly tied to the TCP/IP protocol suite, allowing it to be more adaptable to various networking technologies. The TCP/IP model, in contrast, is tightly associated with the TCP/IP suite and is more focused on practical implementation.
+
+5. *Real-World Applicability*: While the OSI model is a useful teaching and reference tool, the TCP/IP model is the de facto standard for the internet and is a more practical guide for real-world networking.
+
+6. *Historical Significance*: The OSI model predates the TCP/IP model and, while not as widely implemented, has had a significant influence on network design and protocol development.
+
+Similarities between OSI model and TCP/IP model
+1. *Layered Approach*: Both models are structured as a set of hierarchical layers. The OSI model consists of seven layers (Physical, Data Link, Network, Transport, Session, Presentation, and Application), while the TCP/IP model has four layers (Network Interface, Internet, Transport, and Application). This layering approach allows for a modular and systematic development of network protocols.
+
+2. *Interoperability*: Both models aim to facilitate interoperability among different network devices and systems. By standardizing the functions and responsibilities of each layer, they ensure that devices from different manufacturers can communicate effectively.
+
+3. *Application Focus*: While the names and number of layers differ, both models include an "application layer." This layer is concerned with end-user services and applications. It is where user data is created, processed, and presented, making it a crucial point of interaction for network services.
+
+4. *Routing and Addressing*: Both models incorporate the concept of addressing and routing. In the OSI model, addressing is mainly handled at the Network layer, while the TCP/IP model combines addressing and routing in the Internet layer. These layers are responsible for directing data packets to their intended destinations.
+
+5. *Protocols and Standards*: Both models have associated protocols and standards. For example, the OSI model includes protocols like HTTP (Application layer) and IP (Network layer), while the TCP/IP model has protocols such as TCP (Transport layer) and IP (Internet layer).
+
+6. *End-to-End Communication*: Both models support end-to-end communication. Data travels through multiple layers from the source to the destination, with each layer adding its own header or encapsulation, and then the process is reversed at the receiving end. This ensures that the data reaches its intended recipient intact.
+
+7. *Real-World Relevance*: The TCP/IP model, despite its historical origin, has become the de facto standard for internet communication. The OSI model, while informative, is not as widely implemented. Nevertheless, both models offer valuable insights into network architecture
